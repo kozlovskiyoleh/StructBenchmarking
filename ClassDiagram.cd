@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StructBenchmarking.StructArrayCreationTask" Collapsed="true">
+    <Position X="3.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ArrayCreationTasks.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StructBenchmarking.ClassArrayCreationTask" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAABAAAAAAAAAgIABAQAAAEAI=</HashCode>
+      <FileName>ArrayCreationTasks.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StructBenchmarking.Benchmark" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BenchmarkTask.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StructBenchmarking.ChartData" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChartData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StructBenchmarking.Constants">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQA=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StructBenchmarking.ExperimentResult" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExperimentResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StructBenchmarking.MethodCallWithStructArgumentTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAEAAAAAAQAAAIAQAAAAAAAAoCIAQCAgAABAAAI=</HashCode>
+      <FileName>MethodCallTasks.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StructBenchmarking.MethodCallWithClassArgumentTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="1.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAIABABAAAIgCAAAgIABAQAAAEAM=</HashCode>
+      <FileName>MethodCallTasks.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.155" />
+  </Class>
+  <Class Name="StructBenchmarking.Experiments" Collapsed="true">
+    <Position X="1.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExperimentsTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="StructBenchmarking.IBenchmark" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBenchmark.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StructBenchmarking.ITask" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ITask.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
