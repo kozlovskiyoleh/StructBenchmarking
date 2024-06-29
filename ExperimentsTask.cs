@@ -14,9 +14,9 @@ public class Experiments
         for (int i = 0;i<Constants.FieldCounts.Count;i++)
 		{
 			ExperimentResult durationStructuresTimes = new ExperimentResult(Constants.FieldCounts.ElementAt(i),
-				benchmark.MeasureDurationInMs(new StructArrayCreationTask(Constants.FieldCounts.ElementAt(i)),10));
+				benchmark.MeasureDurationInMs(new StructArrayCreationTask(Constants.FieldCounts.ElementAt(i)),repetitionsCount));
             ExperimentResult durationClassesTimes = new ExperimentResult(Constants.FieldCounts.ElementAt(i),
-                benchmark.MeasureDurationInMs(new ClassArrayCreationTask(Constants.FieldCounts.ElementAt(i)), 10));
+                benchmark.MeasureDurationInMs(new ClassArrayCreationTask(Constants.FieldCounts.ElementAt(i)), repetitionsCount));
             structuresTimes.Add(durationStructuresTimes);
 			classesTimes.Add(durationClassesTimes);
 		}
@@ -34,8 +34,15 @@ public class Experiments
 	{
 		var classesTimes = new List<ExperimentResult>();
 		var structuresTimes = new List<ExperimentResult>();
-            
-		//...
+        for(int i = 0; i < Constants.FieldCounts.Count; i++)
+		{
+			ExperimentResult durationClasses = new ExperimentResult(Constants.FieldCounts.ElementAt(i),
+				benchmark.MeasureDurationInMs(new MethodCallWithClassArgumentTask(Constants.FieldCounts.ElementAt(i)), repetitionsCount));
+            ExperimentResult durationStructures = new ExperimentResult(Constants.FieldCounts.ElementAt(i),
+                benchmark.MeasureDurationInMs(new MethodCallWithStructArgumentTask(Constants.FieldCounts.ElementAt(i)), repetitionsCount));
+            structuresTimes.Add(durationStructures);
+            classesTimes.Add(durationClasses);
+        }
 
 		return new ChartData
 		{
